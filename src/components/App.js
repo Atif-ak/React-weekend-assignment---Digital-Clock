@@ -31,7 +31,7 @@ const getHours = this.padNumber(hour)
 const getMinutes = this.padNumber(minutes) 
 const getseconds = this.padNumber(seconds)
 
-const timeString = `${getHours}: ${getMinutes}: ${getseconds}: ${ampm}` 
+const timeString = `${getHours}: ${getMinutes}: ${getseconds} ${ampm}` 
 return timeString;
 }
 padNumber(num){
